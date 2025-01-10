@@ -5,14 +5,6 @@ import theme from "../theme";
 import MyCalendar from "./Calender";
 
 const CalendarWithAgenda = () => {
-  const [selectedDate, setSelectedDate] = useState(new Date(2030, 8, 22)); // Example: Sept 22, 2030
-
-  const handlePrev = () => {
-    const newDate = new Date(selectedDate);
-    newDate.setDate(selectedDate.getDate() - 1);
-    setSelectedDate(newDate);
-  };
-
   const agendaItems = [
     {
       time: "08:00 am",
@@ -47,7 +39,6 @@ const CalendarWithAgenda = () => {
         <MyCalendar />
       </Box>
 
-      {/* Agenda */}
       <Typography variant="h6" sx={{ mb: 1 }}>
         Agenda
       </Typography>

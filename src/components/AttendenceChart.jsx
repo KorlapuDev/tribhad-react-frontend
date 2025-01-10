@@ -42,7 +42,6 @@ function AttendanceChart() {
         </Box>
       </Box>
 
-      {/* Bar Chart */}
       <ResponsiveContainer width="100%" height={347}>
         <BarChart
           data={data}

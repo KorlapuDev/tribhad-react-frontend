@@ -48,7 +48,6 @@ const Header = () => {
             </Badge>
           </IconButton>
 
-          {/* Profile */}
           <Box sx={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <Box textAlign="right">
               <Typography variant="body1">Linda Adora</Typography>
@@ -58,7 +57,7 @@ const Header = () => {
             </Box>
             <Avatar
               alt="Linda Adora"
-              src="/path-to-avatar.jpg" // Replace with the actual image path
+              src="/path-to-avatar.jpg"
               sx={{ width: 32, height: 32 }}
             />
           </Box>
